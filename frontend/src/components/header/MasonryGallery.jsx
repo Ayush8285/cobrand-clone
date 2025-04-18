@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 import Masonry from 'react-masonry-css';
 import SocialCard from "./SocialCard";
-import img1 from "../assets/a1.jpg";
-import img2 from "../assets/a2.jpg";
+import img1 from "../../assets/a1.jpg";
+import img2 from "../../assets/a2.jpg";
 
 const cards = [
   { id: 1, image: img1, icon: "TT", bottomText: "New Hit" },

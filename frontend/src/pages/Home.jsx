@@ -1,12 +1,16 @@
 import React from 'react';
-import Header from '../components/Header.jsx';
+import Header from './HeaderPage.jsx';
+import AnalyticsPage from './AnalyticsPage.jsx';
 
 
 function Home() {
 
 
   return (
+    <>
    <Header />
+   <AnalyticsPage />
+   </>
   );
 }
 
